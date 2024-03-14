@@ -15,4 +15,8 @@ from django.shortcuts import get_object_or_404
 def HomePage(request):
     
     return render(request, 'index.html')
+
+def ProductDetails(request):
+    
+    return render (request, 'product-details.html')
     
